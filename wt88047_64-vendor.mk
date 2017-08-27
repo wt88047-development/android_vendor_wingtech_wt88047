@@ -368,6 +368,11 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/libcalmodule_gyroscope.so:system/vendor/lib64/libcalmodule_gyroscope.so
 
 
+# STLport - from flo
+PRODUCT_COPY_FILES += \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so
+
+
 # Thermal - from crackling
 PRODUCT_COPY_FILES += \
     vendor/wingtech64/wt88047_64/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
