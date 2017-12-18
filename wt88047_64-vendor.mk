@@ -71,6 +71,12 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so
 
 
+# Bluetooth (aptX)
+PRODUCT_COPY_FILES += \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/libaptX_encoder.so:system/vendor/lib64/libaptX_encoder.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib/libaptX_encoder.so:system/vendor/lib/libaptX_encoder.so
+
+
 # Camera - from wt88047 (themuppets)
 PRODUCT_COPY_FILES += \
     vendor/wingtech64/wt88047_64/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
