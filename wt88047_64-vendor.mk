@@ -71,7 +71,7 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so
 
 
-# Camera - from wt88047
+# Camera - from wt88047 (themuppets)
 PRODUCT_COPY_FILES += \
     vendor/wingtech64/wt88047_64/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/wingtech64/wt88047_64/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
@@ -94,8 +94,11 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech64/wt88047_64/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
     vendor/wingtech64/wt88047_64/proprietary/vendor/lib/libmmcamera_hdr_lib.so:system/vendor/lib/libmmcamera_hdr_lib.so \
     vendor/wingtech64/wt88047_64/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib/libmmcamera_pdaf.so:system/vendor/lib/libmmcamera_pdaf.so \
     vendor/wingtech64/wt88047_64/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
     vendor/wingtech64/wt88047_64/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
     vendor/wingtech64/wt88047_64/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
     vendor/wingtech64/wt88047_64/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
     vendor/wingtech64/wt88047_64/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
