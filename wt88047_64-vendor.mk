@@ -332,6 +332,8 @@ PRODUCT_COPY_FILES += \
 
 #radio - from crackling
 PRODUCT_COPY_FILES += \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/etc/data/dsi_config.xml:system/vendor/etc/data/dsi_config.xml \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/etc/data/netmgr_config.xml:system/vendor/etc/data/netmgr_config.xml \
     vendor/wingtech64/wt88047_64/proprietary/vendor/etc/permissions/qcnvitems.xml:system/vendor/etc/permissions/qcnvitems.xml \
     vendor/wingtech64/wt88047_64/proprietary/vendor/etc/permissions/qcrilhook.xml:system/vendor/etc/permissions/qcrilhook.xml
 
