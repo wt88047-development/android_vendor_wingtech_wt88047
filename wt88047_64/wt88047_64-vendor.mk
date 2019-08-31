@@ -370,8 +370,7 @@ PRODUCT_COPY_FILES += \
 # Radio - IMS
 PRODUCT_COPY_FILES += \
     vendor/wingtech64/wt88047_64/proprietary/vendor/etc/permissions/ims.xml:system/vendor/etc/permissions/ims.xml \
-    vendor/wingtech64/wt88047_64/proprietary/vendor/etc/permissions/imscm.xml:system/vendor/etc/permissions/imscm.xml \
-    vendor/wingtech64/wt88047_64/proprietary/vendor/etc/permissions/qti_permissions.xml:system/vendor/etc/permissions/qti_permissions.xml
+    vendor/wingtech64/wt88047_64/proprietary/vendor/etc/permissions/imscm.xml:system/vendor/etc/permissions/imscm.xml
 
 PRODUCT_COPY_FILES += \
     vendor/wingtech64/wt88047_64/proprietary/vendor/bin/imscmservice:system/vendor/bin/imscmservice \
@@ -458,3 +457,107 @@ PRODUCT_PACKAGES += \
     imssettings \
     imscmlibrary
 
+# KANG BOBS!
+PRODUCT_COPY_FILES += \
+    vendor/wingtech64/wt88047_64/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
+    vendor/wingtech64/wt88047_64/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
+    vendor/wingtech64/wt88047_64/proprietary/etc/permissions/privapp-permissions-qti.xml:system/etc/permissions/privapp-permissions-qti.xml \
+    vendor/wingtech64/wt88047_64/proprietary/etc/permissions/com.qualcomm.qti.imscmservice.xml:system/etc/permissions/com.qualcomm.qti.imscmservice.xml \
+    vendor/wingtech64/wt88047_64/proprietary/app/ims/lib/arm64/libimscamera_jni.so:system/app/ims/lib/arm64/libimscamera_jni.so \
+    vendor/wingtech64/wt88047_64/proprietary/app/ims/lib/arm64/libimsmedia_jni.so:system/app/ims/lib/arm64/libimsmedia_jni.so \
+    vendor/wingtech64/wt88047_64/proprietary/app/ims/ims.apk:system/app/ims/ims.apk \
+    vendor/wingtech64/wt88047_64/proprietary/app/imssettings/imssettings.apk:system/app/imssettings/imssettings.apk \
+    vendor/wingtech64/wt88047_64/proprietary/app/QtiSystemService/QtiSystemService.apk:system/app/QtiSystemService/QtiSystemService.apk \
+    vendor/wingtech64/wt88047_64/proprietary/app/QtiTelephonyService/QtiTelephonyService.apk:system/app/QtiTelephonyService/QtiTelephonyService.apk \
+    vendor/wingtech64/wt88047_64/proprietary/framework/com.qualcomm.qti.imscmservice@1.0-java.jar:system/framework/com.qualcomm.qti.imscmservice@1.0-java.jar \
+    vendor/wingtech64/wt88047_64/proprietary/framework/qti-telephony-common.jar:system/framework/framework/qti-telephony-common.jar \
+    vendor/wingtech64/wt88047_64/proprietary/framework/rcs_service_aidl.jar:system/fframework/rcs_service_aidl.jar \
+    vendor/wingtech64/wt88047_64/proprietary/framework/rcs_service_api.jar:system/framework/rcs_service_api.jar \
+    vendor/wingtech64/wt88047_64/proprietary/lib/android.hardware.broadcastradio@1.0.so:system/lib/android.hardware.broadcastradio@1.0.so \
+    vendor/wingtech64/wt88047_64/proprietary/lib/android.hardware.broadcastradio@1.1.so:system/lib/android.hardware.broadcastradio@1.1.so \
+    vendor/wingtech64/wt88047_64/proprietary/lib/android.hardware.radio.deprecated@1.0.so:system/lib/android.hardware.radio.deprecated@1.0.so \
+    vendor/wingtech64/wt88047_64/proprietary/lib/android.hardware.radio@1.0.so:system/lib/android.hardware.radio@1.0.so \
+    vendor/wingtech64/wt88047_64/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:system/lib/com.qualcomm.qti.imscmservice@1.0.so \
+    vendor/wingtech64/wt88047_64/proprietary/lib/lib-imscamera.so:system/lib/lib-imscamera.so \
+    vendor/wingtech64/wt88047_64/proprietary/lib/lib-imsvideocodec.so:system/lib/lib-imsvideocodec.so \
+    vendor/wingtech64/wt88047_64/proprietary/lib/lib-imsvt.so:system/lib/lib-imsvt.so \
+    vendor/wingtech64/wt88047_64/proprietary/lib/lib-imsvtextutils.so:system/lib/lib-imsvtextutils.so \
+    vendor/wingtech64/wt88047_64/proprietary/lib/lib-imsvtutils.so:system/lib/lib-imsvtutils.so\
+    vendor/wingtech64/wt88047_64/proprietary/lib/libantradio.so:system/lib/libantradio.so \
+    vendor/wingtech64/wt88047_64/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
+    vendor/wingtech64/wt88047_64/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
+    vendor/wingtech64/wt88047_64/proprietary/lib/libqmi_cci_system.so:system/lib/libqmi_cci_system.so \
+    vendor/wingtech64/wt88047_64/proprietary/lib/libradio.so:system/lib/libradio.so\
+    vendor/wingtech64/wt88047_64/proprietary/lib/libradio_metadata.so:system/lib/libradio_metadata.so\
+    vendor/wingtech64/wt88047_64/proprietary/lib/libradioservice.so:system/lib/libradioservice.so \
+    vendor/wingtech64/wt88047_64/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
+    vendor/wingtech64/wt88047_64/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:system/lib/vendor.qti.imsrtpservice@1.0.so \
+    vendor/wingtech64/wt88047_64/proprietary/lib64/android.hardware.broadcastradio@1.0.so:system/lib64/android.hardware.broadcastradio@1.0.so \
+    vendor/wingtech64/wt88047_64/proprietary/lib64/android.hardware.radio.deprecated@1.0.so:system/lib64/android.hardware.radio.deprecated@1.0.so \
+    vendor/wingtech64/wt88047_64/proprietary/lib64/android.hardware.radio@1.0.so:system/lib64/android.hardware.radio@1.0.so \
+    vendor/wingtech64/wt88047_64/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:system/lib64/com.qualcomm.qti.imscmservice@1.0.so \
+    vendor/wingtech64/wt88047_64/proprietary/lib64/lib-imscamera.so:system/lib64/lib-imscamera.so \
+    vendor/wingtech64/wt88047_64/proprietary/lib64/lib-imsvideocodec.so:system/lib64/lib-imsvideocodec.so \
+    vendor/wingtech64/wt88047_64/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
+    vendor/wingtech64/wt88047_64/proprietary/lib64/lib-imsvtextutils.so:system/lib64/lib-imsvtextutils.so \
+    vendor/wingtech64/wt88047_64/proprietary/lib64/lib-imsvtutils.so:system/lib64/lib-imsvtutils.so\
+    vendor/wingtech64/wt88047_64/proprietary/lib64/libantradio.so:system/lib64/libantradio.so \
+    vendor/wingtech64/wt88047_64/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
+    vendor/wingtech64/wt88047_64/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
+    vendor/wingtech64/wt88047_64/proprietary/lib64/libqmi_cci_system.so:system/lib64/libqmi_cci_system.so \
+    vendor/wingtech64/wt88047_64/proprietary/lib64/libradio.so:system/lib64/libradio.so\
+    vendor/wingtech64/wt88047_64/proprietary/lib64/libradio_metadata.so:system/lib64/libradio_metadata.so\
+    vendor/wingtech64/wt88047_64/proprietary/lib64/libradioservice.so:system/lib64/libradioservice.so \
+    vendor/wingtech64/wt88047_64/proprietary/lib64/libreference-ril.so:system/lib64/libreference-ril.so \
+    vendor/wingtech64/wt88047_64/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/bin/imsrcsd:vendor/bin/imsrcsd \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/bin/init.qti.ims.sh:vendor/bin/init.qti.ims.sh \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/framework/qti-vzw-ims-internal.jar:vendor/framework/qti-vzw-ims-internal.jar \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib/android.hardware.broadcastradio@1.0-impl.so:vendor/lib/android.hardware.broadcastradio@1.0-impl.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@1.0_vendor.so:vendor/lib/com.qualcomm.qti.imscmservice@1.0_vendor.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib/lib-imsSDP.so:vendor/lib/lib-imsSDP.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib/lib-imscmservice.so:vendor/lib/lib-imscmservice.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib/lib-imsdpl.so:vendor/lib/lib-imsdpl.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib/lib-imsqimf.so:vendor/lib/lib-imsqimf.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib/lib-imsxml.so:vendor/lib/lib-imsxml.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib/libcneqmiutils.so:vendor/lib/libcneqmiutils.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/libdpmqmihal.so:vendor/libdpmqmihal.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib/libril-qc-ltedirectdisc.so:vendor/lib/libril-qc-ltedirectdisc.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib/libril-qc-qmi-1.so:vendor/lib/libril-qc-qmi-1.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib/libril-qc-radioconfig.so:vendor/lib/libril-qc-radioconfig.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib/libril-qcril-hook-oem.so:vendor/lib/libril-qcril-hook-oem.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib/libril.so:vendor/lib/libril.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib/librilqmiservices.so:vendor/lib/librilqmiservices.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib/librilutils.so:vendor/lib/librilutils.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib/vendor.qti.hardware.radio.am@1.0_vendor.so:vendor/lib/vendor.qti.hardware.radio.am@1.0_vendor.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib/vendor.qti.hardware.radio.atcmdfwd@1.0_vendor.so:vendor/lib/vendor.qti.hardware.radio.atcmdfwd@1.0_vendor.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib/vendor.qti.hardware.radio.ims@1.0_vendor.so:vendor/lib/vendor.qti.hardware.radio.ims@1.0_vendor.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib/vendor.qti.hardware.radio.lpa@1.0_vendor.so:vendor/lib/vendor.qti.hardware.radio.lpa@1.0_vendor.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib/vendor.qti.hardware.radio.qcrilhook@1.0_vendor.so:vendor/lib/vendor.qti.hardware.radio.qcrilhook@1.0_vendor.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib/vendor.qti.hardware.radio.qtiradio@1.0_vendor.so:vendor/lib/vendor.qti.hardware.radio.qtiradio@1.0_vendor.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib/vendor.qti.hardware.radio.uim@1.0_vendor.so:vendor/lib/vendor.qti.hardware.radio.uim@1.0_vendor.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so:vendor/lib/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so:vendor/lib/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so:vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0_vendor.so:vendor/lib/vendor.qti.imsrtpservice@1.0_vendor.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@1.0_vendor.so:vendor/lib64/com.qualcomm.qti.imscmservice@1.0_vendor.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/lib-imscmservice.so:vendor/lib64/lib-imscmservice.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/libcneqmiutils.so:vendor/lib64/libcneqmiutils.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/libdpmqmihal.so:vendor/lib64/libdpmqmihal.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:vendor/lib64/libril-qc-ltedirectdisc.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/libril.so:vendor/lib64/libril.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/librilqmiservices.so:vendor/lib64/librilqmiservices.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/librilutils.so:vendor/lib64/librilutils.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/libsettings.so:vendor/lib64/libsettings.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/lib-imscmservice.so:vendor/lib64/lib-imscmservice.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/vendor.qti.hardware.radio.am@1.0_vendor.so:vendor/lib64/vendor.qti.hardware.radio.am@1.0_vendor.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0_vendor.so:vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0_vendor.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.0_vendor.so:vendor/lib64/vendor.qti.hardware.radio.ims@1.0_vendor.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/vendor.qti.hardware.radio.lpa@1.0_vendor.so:vendor/lib64/vendor.qti.hardware.radio.lpa@1.0_vendor.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/vendor.qti.hardware.radio.qcrilhook@1.0_vendor.so:vendor/lib64/vendor.qti.hardware.radio.qcrilhook@1.0_vendor.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/vendor.qti.hardware.radio.qtiradio@1.0_vendor.so:vendor/lib64/vendor.qti.hardware.radio.qtiradio@1.0_vendor.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim@1.0_vendor.so:vendor/lib64/vendor.qti.hardware.radio.uim@1.0_vendor.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so:vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so:vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so:vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so:vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so \
