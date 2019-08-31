@@ -378,10 +378,7 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech64/wt88047_64/proprietary/vendor/bin/imsqmidaemon:system/vendor/bin/imsqmidaemon \
     vendor/wingtech64/wt88047_64/proprietary/vendor/bin/ims_rtp_daemon:system/vendor/bin/ims_rtp_daemon \
     vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/lib-dplmedia.so:system/vendor/lib64/lib-dplmedia.so \
-    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/libimscamera_jni.so:system/vendor/lib64/libimscamera_jni.so \
-    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/lib-imscamera.so:system/vendor/lib64/lib-imscamera.so \
     vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/lib-imsdpl.so:system/vendor/lib64/lib-imsdpl.so \
-    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/libimsmedia_jni.so:system/vendor/lib64/libimsmedia_jni.so \
     vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/lib-imsqimf.so:system/vendor/lib64/lib-imsqimf.so \
     vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/lib-imsrcscmclient.so:system/vendor/lib64/lib-imsrcscmclient.so \
     vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/lib-imsrcscmservice.so:system/vendor/lib64/lib-imsrcscmservice.so \
@@ -389,7 +386,6 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/lib-imsrcs.so:system/vendor/lib64/lib-imsrcs.so \
     vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/lib-imsSDP.so:system/vendor/lib64/lib-imsSDP.so \
     vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/lib-imss.so:system/vendor/lib64/lib-imss.so \
-    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/lib-imsvt.so:system/vendor/lib64/lib-imsvt.so \
     vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/lib-imsxml.so:system/vendor/lib64/lib-imsxml.so \
     vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/lib-rcsimssjni.so:system/vendor/lib64/lib-rcsimssjni.so \
     vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/lib-rcsjni.so:system/vendor/lib64/lib-rcsjni.so \
